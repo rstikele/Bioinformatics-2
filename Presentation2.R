@@ -1,6 +1,4 @@
-#For dataset 1
-#setwd("C:/Users/Ryan/Development/R/BIO 614/Lab4a/Lab4a")
-a=read.csv("lab4data1.csv", header = T)
+a=read.csv("data1.csv", header = T)
 attach(a)
 names(a)
 
@@ -112,7 +110,7 @@ pwr.anova.test(k=5, n= 20, f=cohen.f3, sig.level = 0.05, power = NULL)
 
 
 #For dataset 2 untransformed
-b=read.csv("lab4data2.csv", header = T)
+b=read.csv("data2.csv", header = T)
 attach(b)
 names(b)
 
